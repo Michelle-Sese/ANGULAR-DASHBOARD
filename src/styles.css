@@ -1,0 +1,15 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.chart-cnt canvas {
+    max-height: 250px;
+    width: auto !important;
+}
+
+.chart-cnt{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
